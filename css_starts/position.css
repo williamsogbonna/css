@@ -1,0 +1,99 @@
+.box {
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    position: absolute;
+    top: 0vh;
+    left: 80vw;
+
+}
+
+body {
+    height: 160vh;
+    
+}
+
+.rect {
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    position: fixed;
+    bottom: 14vh;
+    right: 50vw;
+    transition: ease 5s;
+    color: white;
+}
+
+.Circle {
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 10vh;
+    left: 20vw;
+    animation-name: movement;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+}
+
+section {
+    position: relative;
+    background-color: yellow;
+    height: 70vh;
+    transition: ease 1s;
+}   
+
+section:hover{
+    background-color: pink;
+    height: 40vh;
+}
+
+.rect:hover{
+    height: 70px;
+    width: 70px;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+@keyframes movement {
+    0% {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: black;
+    }
+
+    25% {
+        position: absolute;
+        top: 0;
+        right: 70vw;
+        background-color: red;
+    }  
+
+    50% {
+        position: absolute;
+        right: 0;
+        bottom: 70vh;
+        background-color: green;
+    }
+
+    75% {
+        position: absolute;
+        left: 70vw;
+        bottom: 0;
+        background-color: blue;
+        
+    }
+
+    100% {
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: brown;
+    }
+}

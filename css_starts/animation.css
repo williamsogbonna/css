@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    background-color: blueviolet;
+    height: 14vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    color: white;
+    margin-left: 10px;
+    font-weight:900 ;
+    text-decoration: none;
+}
+
+h3 {
+    height: 70px;
+    width: 70px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+.circle {
+    background-color: yellow;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.circle p{
+    animation-name: stop;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+ .cir {
+     background-color: black;
+     height: 15px;
+     width: 15px;
+     border-radius: 50%;
+     margin-top: -90px;
+     margin-left: -25px;
+ }
+    
+
+.square {
+        background-color: blue;
+        height: 100px;
+        width: 100px;
+        position: relative;
+       
+        border-radius: 6px;
+}
+
+.square:hover{
+    background-color: brown;
+    cursor: pointer;
+    transition: ease 3s;
+}
+
+
+
+
+main {
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20vh;
+}
+
+span {
+    height: 2px;
+    width: 40px;
+    background-color: aliceblue;
+}
+
+button {
+    
+}
+
+
+
+
+@keyframes rotate {
+    0%{
+        background-color: rebeccapurple;
+        transform: rotate(0deg);
+    }
+    25%{
+background-color: aqua;
+
+    }
+    50%{
+        background-color: red;
+        
+    }
+    75%{
+        background-color: green;
+       
+    }
+    100%{
+        background-color: white;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes stop {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    header {
+        background-color: black;
+    }
+    nav {
+        display: none;
+    }
+    h3 {
+        display: flex;
+    }
+
+   
+
+   }
+
+   @media screen  and (max-width: 768px) {
+        .circle {
+           height: 100px;
+           width: 100px;
+           border-radius: 0%;
+       }
+       
+   }
+
+
+
+
+
+    
+
+    
+
+

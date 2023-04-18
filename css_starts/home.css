@@ -1,0 +1,25 @@
+* {
+    border-style: solid;
+}
+
+h1 {
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    padding-left: 30px;
+    margin: 30px;
+    border-width: 3px;
+    border-color: darkgoldenrod;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h3 {
+    padding: 30px;
+    padding-bottom: 75px;
+    margin: 30px;
+    border-style: dotted;
+}

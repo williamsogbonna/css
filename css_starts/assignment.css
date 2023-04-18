@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: red;
+    color: white;
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+}
+
+h1, a{
+    display: inline;
+}
+
+a{
+     font-weight: 900;
+     margin-right: 10px;
+     font-size: larger;
+     color: white;
+     text-decoration: none;
+}
+
+h2 {
+    
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+    display: none;
+    cursor: pointer;
+    
+}
+
+span{
+    height: 2px;
+    width: 20px;
+    background-color: azure;
+}
+main {
+    
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-right: 7px;
+  
+   
+}
+
+.first {
+    background-color: blue;
+    height: 90vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+
+}
+.line{
+    height: 10px;
+    width: 400px;
+    background-color: azure;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+
+
+.second {
+   
+    height: 90vh;
+    width: 40vw;
+    border: solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.third {
+    background-color: rgb(32, 103, 184);
+    height: 90vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 30vh;
+    width: 100vw;
+    padding: 20px;
+}
+
+h4 {
+    height: 100vh;
+    width: 100vw;
+}
+
+button{
+    height: 30px;
+    width: 140px;
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes loading {
+    0%{
+        background-color: black;
+        transform: ;
+    }
+}
+
+
+@media  screen and (max-width: 768px) {
+    header {
+        background-color: red;
+    }
+    nav {
+        display: none;
+    }
+    h2 {
+        display: flex;
+    }
+    main {
+        display: grid;
+        
+      
+    }
+    .first{
+        height: 90vh;
+        width: 80vw;
+    }
+    .second{
+        height: 90vh;
+        width: 80vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .third{
+        height: 90vh;
+        width: 80vw;
+    }
+
+    
+        
+        
+    }
+   
+
+    

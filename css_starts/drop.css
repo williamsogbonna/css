@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 15vh;
+    width: 100vw;
+    background-color: blueviolet;
+    color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+   
+}
+header:hover nav{
+    left: 0;
+    transition: 700ms;
+}
+header nav{
+    position: absolute;
+    left: -15vw;
+    top: 15vh;
+    
+}
+nav{
+    width: 15vw;
+    background-color: blueviolet;
+}
+
+    
+
+
+ nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    height: 80vh;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    font-size: 2em;  
+
+}
+li{
+   margin-right: 6px;
+}
